@@ -1,0 +1,32 @@
+{
+  "name": "@ops-dss/typescript-config",
+  "version": "0.0.1",
+  "private": false,
+  "description": "Shared TypeScript configuration for OPS-DSS projects",
+  "author": "OPS/PAHO",
+  "license": "MIT",
+  "homepage": "https://github.com/ops-dss/dss-typescript-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OPS-DSS/typescript-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OPS-DSS/typescript-config/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "exports": {
+    "./base": "./base.json",
+    "./nextjs": "./nextjs.json",
+    "./react-library": "./react-library.json"
+  },
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "react-library.json",
+    "README.md",
+    "LICENSE"
+  ]
+}
