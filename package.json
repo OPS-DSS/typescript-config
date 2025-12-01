@@ -17,7 +17,11 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "main": "./base.json",
   "exports": {
+    "./base.json": "./base.json",
+    "./nextjs.json": "./nextjs.json",
+    "./react-library.json": "./react-library.json",
     "./base": "./base.json",
     "./nextjs": "./nextjs.json",
     "./react-library": "./react-library.json"
